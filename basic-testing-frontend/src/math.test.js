@@ -4,6 +4,13 @@ import { add } from "./math";
 
 // you could also use test instead of it
 it("should summarize all number values in an array", () => {
-    const result = add([1, 2, 3]);
-    expect(result).toBe(5);
+    // Arrange
+    const numbers = [1, 2, 3];
+
+    //Act
+    const result = add(numbers);
+
+    //Assert
+    const expectedResult = numbers.reduce((prevValue, curValue) => prevValue + curValue, 0);
+    expect(result).toBe(expectedResult);
 });
