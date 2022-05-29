@@ -11,4 +11,4 @@ This repository contains code snapshots and notes taken from JavaScript Unit Tes
 -   Run the tests with `npm test` command.
 -   The `--reporter verbose` flags will give the details.
 -   If you want to watch the test continuously, you can run `npm run test:watch` command which watches for any changes to the test and automatically reexecutes them.
--
+-   Same tests can also be run for backend projects.
