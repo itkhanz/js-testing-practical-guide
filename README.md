@@ -4,7 +4,7 @@ This repository contains code snapshots and notes taken from JavaScript Unit Tes
 
 ---
 
-## Basics
+## 03-Basics
 
 -   We start with the **basic-testing-fontend** folder,and _src/util/math.js_ function as a unit.
 -   Create **math.test.js** file which will execute automoatically with vitest test runner that is configured in package.json. `vitest --run --reporter verbose` is set as a test command, if you also add ` --globals` at the end, then you do not need to import any test commands at the top of test scripts.
