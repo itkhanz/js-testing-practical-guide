@@ -1,0 +1,23 @@
+{
+    "name": "javascript-unit-testing---the-practical-guide-code",
+    "version": "1.0.0",
+    "description": "This repository contains code snapshots and notes taken from JavaScript Unit Testing - The Practical Guide course.",
+    "main": "index.js",
+    "scripts": {
+        "test": "vitest --globals"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/itkhanz/js-testing-practical-guide.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/itkhanz/js-testing-practical-guide/issues"
+    },
+    "homepage": "https://github.com/itkhanz/js-testing-practical-guide#readme",
+    "devDependencies": {
+        "vitest": "^0.12.10"
+    }
+}
