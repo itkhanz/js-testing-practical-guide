@@ -4,7 +4,8 @@ This repository contains code snapshots and notes taken from JavaScript Unit Tes
 
 ---
 
-## 05 - Integration Tests
+## 06 - More Key Testing Library APIs
 
--   Testing functions that call other functions. One such example is `cleanNumbers` function in **numbers.js**
--
+-   Testing Asynchronus Code
+-   Using Setup & Cleanup Hooks
+-   Concurrent Tests
