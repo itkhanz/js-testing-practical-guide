@@ -15,3 +15,7 @@ This repository contains code snapshots and notes taken from JavaScript Unit Tes
 ### toBe vs toEqual
 
 toBe checks for the exact equality thats is why it does not work for objects or arrays that are reference values in JavaScript and stored in different memory locations, so we use `toEqual()` instead
+
+### Testing asynchronus code with callbacks
+
+add an extra parameter `done` to the `it` so that the assertion should wait for the asynchronus function done to complete
