@@ -5,7 +5,7 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "test": "vitest --run --reporter verbose",
+        "test": "vitest --run --environment happy-dom",
         "test:watch": "vitest",
         "start": "http-server -c-1"
     },
@@ -13,6 +13,7 @@
     "author": "Maximilian Schwarzmüller",
     "license": "ISC",
     "devDependencies": {
+        "happy-dom": "^5.0.0",
         "http-server": "^14.1.0",
         "install": "^0.13.0",
         "jsonwebtoken": "^8.5.1",

@@ -6,7 +6,7 @@
 // storeData(data);
 
 // More Mocking
-import { extractPostData, savePost } from "./posts/posts.js";
+import { extractPostData, savePost } from "./more-mocking/posts/posts";
 
 const formElement = document.querySelector("form");
 
